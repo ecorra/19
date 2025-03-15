@@ -1,0 +1,50 @@
+**Workstation Setup (Windows)**
+
+- **Install WSL (Windows Subsystem for Linux)**
+  
+- PowerShell Admin:  
+  ~ 'wsl --install'
+  - Restart your computer if prompted.
+  - **Note:** WSL will install **Ubuntu** by default.
+
+- **Update and Upgrade Ubuntu (if necessary)**
+  - WSL terminal
+  ~ 'sudo apt update && sudo apt upgrade -y`
+
+- **Install Git**
+  - In WSL:  
+  ~ `sudo apt install git -y`
+
+- **Install Zsh**
+  - In the WSL terminal, run the command:  
+  ~ `sudo apt install zsh -y`
+
+- **Install Oh My Zsh**
+  - In the WSL terminal, run the command:  
+  ~ `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+
+- **Install Vim**
+  - In the WSL terminal, run the command:  
+  ~ `sudo apt install vim -y`
+
+- **Install GCC and G++**
+  - In the WSL terminal, run the command:  
+  ~ `sudo apt install gcc g++ -y`
+
+- **Install Make (build tool)**
+  - In the WSL terminal, run the command:  
+  ~ `sudo apt install make -y`
+
+- **Install Additional C Development Tools**
+  - In the WSL terminal, run the command:  
+  ~ `sudo apt install build-essential -y`
+
+- **Install Curl (for downloading dependencies)**
+  - In the WSL terminal, run the command:  
+  ~ `sudo apt install curl -y`
+
+- **Optional: Install Visual Studio Code (VSCode) for editing code**
+  - Download and install VSCode from [Visual Studio Code website](https://code.visualstudio.com/)
+  - Install the "Remote - WSL" extension in VSCode for seamless integration with WSL.
+
+---
